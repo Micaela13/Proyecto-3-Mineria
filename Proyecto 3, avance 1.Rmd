@@ -1,0 +1,23 @@
+---
+title: "Proyecto 3, avance 1"
+author:
+- "Micaela Yataz (carnet: 18960)"
+- " (carnet: )"
+- " (carnet: )"
+date: "2025-03-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+library(GGally)
+
+
+```
+
+```{r cargando archivo, echo=FALSE}
+datos<-read.csv("data.cvs" )
+
+```
